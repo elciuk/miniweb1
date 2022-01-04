@@ -410,7 +410,7 @@ h1{
     display:flex;
     flex-direction: column;
     align-items:center;
-    min-height:90vh;
+    min-height:92vh;
     width:100%;
 }
 .coDal{
@@ -541,6 +541,7 @@ h1{
 
     #pricePage > h1{
         margin-top:5rem;
+        margin-bottom:2rem;
         font-size:350%;
     }
     #pricePage >p:first-of-type{
@@ -613,7 +614,7 @@ h1{
   }
   .contactText1{
       grid-row:1/2;
-      font-size:150%;
+      font-size:160%;
   }
   .contactText2{    
       grid-row:3/4;
@@ -623,12 +624,16 @@ h1{
   .footerLinkSection{
       max-width:75%;
       margin:auto;
-      min-height:10vh;
+      min-height:8vh;
 }
+
 }
 @media (min-width:1225px){
  .hidden{
      display:inline;
+ }
+ .bulletText{
+     font-size:350%;
  }
  .contactPageContainer{
     padding:0px 1rem;
@@ -637,7 +642,7 @@ h1{
      left:80%;
  }
  .contactText1{
-     font-size:200%;
+     font-size:250%;
  }
 
  
