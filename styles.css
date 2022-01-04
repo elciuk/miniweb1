@@ -352,7 +352,7 @@ h1{
     min-height:100vh;
 }
     #pricePage > h1{
-        font-size:250%;
+        font-size:220%;
         margin-top:2rem;
         color:var(--lightblack);
         font-weight:900;
