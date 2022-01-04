@@ -644,6 +644,11 @@ h1{
  .contactText1{
      font-size:250%;
  }
-
+.bulletText{
+    font-size:150% !important;
+}
+.price{
+    font-size:150% !important;
+}
  
 }
