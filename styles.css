@@ -126,8 +126,7 @@ a{
     display:none;
 }
 #overlay ul{
-    margin-top:10vh;
-    padding-top:10vh;
+    margin:auto;
 }
 #overlay li a:hover span{
     display:inline;
