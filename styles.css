@@ -166,7 +166,7 @@ a{
 body {
 
     margin: auto;
-    max-width:auto;
+    width:98vw;
 
     animation: bugfix infinite 1s;
     -webkit-animation: bugfix infinite 1s;
