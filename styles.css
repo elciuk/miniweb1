@@ -652,3 +652,10 @@ h1{
 }
  
 }
+/*kod pouze pro Safari*/
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+{ 
+   #desktopMail, #desktopPhone{
+       font-size:200%;
+   }
+}
