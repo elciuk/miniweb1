@@ -126,7 +126,7 @@ a{
     display:none;
 }
 #overlay ul{
-    padding-top:10vh;
+    margin-top:-7vh;
 }
 #overlay li a:hover span{
     display:inline;
@@ -220,6 +220,7 @@ body {
     width: 35px;
     border-radius: 2px;
     background-color: var(--white);
+    color:var(--white);
     position: absolute;
     content: "";
     transition: all 0.2s ease-in-out;
@@ -258,7 +259,7 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
     visibility: hidden;
     position: static;
     display:none;
-    padding-top:6rem;
+
 }
 #overlay.active {
     visibility: visible;
@@ -352,7 +353,7 @@ h1{
     min-height:100vh;
 }
     #pricePage > h1{
-        font-size:220%;
+        font-size:200%;
         margin-top:2rem;
         color:var(--lightblack);
         font-weight:900;
@@ -386,7 +387,7 @@ h1{
     }
     .bullet{
         display:block;
-        max-width:35vw;
+        max-width:30vw;
         margin-top:auto;
         margin-bottom:auto;
     }
@@ -421,6 +422,7 @@ h1{
     flex-direction:column;
     align-content:space-around;
     margin:auto;
+    margin-top:2vh;
     max-width: 80vw;
 }
 .contactPageContainer > p{
@@ -434,7 +436,9 @@ h1{
     font-size:150%;
 }
 .contactText2{
-    font-size:75%;
+    font-size:85%;
+    font-weight:700;
+    padding-bottom:8vh;
 }
 .linkStazeni{
     text-decoration:underline;
