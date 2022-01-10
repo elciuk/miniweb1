@@ -595,7 +595,7 @@ h1{
         font-size:150%;
     }
     .coDal{
-        font-size:200%;
+        font-size:160%;
         font-weight:500;
         margin: 6% auto 3rem auto;
     }
@@ -603,7 +603,7 @@ h1{
       display:grid;
       grid-template-columns: 50% 50%;
       grid-column-gap: 5vw;
-      max-width:80vw;
+      max-width:90vw;
       padding: 0rem 2rem;
       
   }
