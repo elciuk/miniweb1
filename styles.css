@@ -349,7 +349,7 @@ h1{
 #pricePage{
     background-color: var(--white);
     color:black;
-    width:100%;
+    width:98vw;
     min-height:100vh;
 }
     #pricePage > h1{
@@ -412,7 +412,7 @@ h1{
     flex-direction: column;
     align-items:center;
     min-height:92vh;
-    width:100%;
+    width:98vw;
 }
 .coDal{
     margin: 6% auto 3rem auto;
