@@ -303,7 +303,9 @@ h1{
     margin-bottom:0.5rem;
     font-weight:800;
 }
-
+#landingPage, #pricePage, #contactPage{
+    margin:auto;
+}
 #landingPage{
     background-color: var(--grey);
     min-height:100vh;
@@ -313,6 +315,7 @@ h1{
     align-items: center;
     padding-top:6rem;
     padding-bottom:6rem;
+    max-width:98vw;
 }
     #profilePic{
         max-width:40vw;
