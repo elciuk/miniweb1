@@ -125,9 +125,7 @@ a{
 .highlight{
     display:none;
 }
-#overlay{
-    padding-top:30vh;
-}
+
 #overlay ul{
     margin:auto;
 }
@@ -266,6 +264,7 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
     visibility: visible;
 }
 #overlay ul {
+    padding-top:10vh;
     display: flex;
     justify-content: center;
     align-items: center;
