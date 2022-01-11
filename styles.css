@@ -164,10 +164,8 @@ a{
 /*end of inserted content*/
 
 body {
-
     margin: auto;
-    width:100%;
-
+    width:100vw;
     animation: bugfix infinite 1s;
     -webkit-animation: bugfix infinite 1s;
 }
