@@ -125,6 +125,9 @@ a{
 .highlight{
     display:none;
 }
+#overlay{
+    padding-top:10vh;
+}
 #overlay ul{
     margin:auto;
 }
@@ -287,10 +290,11 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
 #overlay ul li a:hover {
     color: var(--white);    
 }
-#overlay ul:first-child{
+/*#overlay ul:first-child{
     padding-top:35vh;
     margin-top:20vh;
 }
+*/
 
 
 /*begining of inserted content*/
