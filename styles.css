@@ -290,7 +290,7 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
     color: var(--white);    
 }
 #overlay ul:first-child{
-    padding-top:25vh;
+    padding-top:35vh;
 }
 
 
