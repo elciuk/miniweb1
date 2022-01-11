@@ -459,7 +459,7 @@ h1{
     }
 @media (max-width:360px){
     #pricePage, #contactPage, body,.LinkContainer, .footerLinkSection{
-        width:98vw;
+        width:100vw;
     }
     body{
         margin:0px;
