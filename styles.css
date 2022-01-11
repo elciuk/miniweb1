@@ -457,7 +457,7 @@ h1{
     #test{
         display:none;
     }
-@media (max-width:360px){
+@media (max-width:361px){
     #pricePage, #contactPage, body,.LinkContainer, .footerLinkSection{
         width:100vw;
     }
@@ -475,13 +475,13 @@ h1{
     }
     #pricePage >h1{
         font-size:130%;
-        padding:-2rem;
+        padding:0px;
     }
     #landingPage > h1{
         font-size:180%;
     }
     #pricePage >p{
-        padding:-2rem;
+        padding:0px;
         font-size:100%;
     }
     .bullets{
