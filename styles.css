@@ -342,7 +342,7 @@ h1{
         font-weight:800;
         margin-bottom:5vh;
     }   
-    #contactMeBtn:hover{
+    #contactMeBtn:hover, #contactMeBtn:active{
         color:var(--blue);
         background-color:var(--white);
     }
