@@ -496,6 +496,20 @@ h1{
     #overlay ul{
         padding-top:10vh;
     }
+    .bulletText > .noWrap{
+        white-space:normal;
+    }
+    .bulletText > br{
+        display:none;
+    }
+}
+@media (max-width:550px){
+    .bulletText > .noWrap{
+        white-space:normal;
+    }
+    .bulletText > br{
+        display:none;
+    }
 }
 @media (min-width:600px){
     #profilePic{
@@ -503,9 +517,16 @@ h1{
         margin:auto;
         margin-top:10vh;
     }
+    .noWrap{
+        white-space:nowrap;
+    }
+    
  
 }
 @media (min-width:816px){
+    .bulletText > br{
+        display:inline;
+    }
     #oMnePop{
         display:none;
         position:absolute;
