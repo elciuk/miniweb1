@@ -510,6 +510,9 @@ h1{
     .bulletText > br{
         display:none;
     }
+    #overlay ul{
+        padding-top:10vh;
+    }
 }
 @media (min-width:600px){
     #profilePic{
