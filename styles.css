@@ -590,8 +590,10 @@ h1{
    .desktopMenuSocial{
        grid-column:3/4;
        margin:auto;
-       font-size:150%;
        font-weight:500;
+   }
+   .desktopMenuSocial > a{
+       font-size:150%;
    }
    .desktopMenu a{
        color:var(--white);
