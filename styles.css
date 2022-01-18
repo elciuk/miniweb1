@@ -13,6 +13,29 @@ html{
     --lightblack:#3b3d40;
     --darkgrey:#656b6f;
 }
+#myBtn{
+
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 35%;
+    right: 25px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #656B6F;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #2E71F2;
+    color: #ffffff;
+  }
 h1, .coDal, #contactMeBtn{
     font-family: Arial, Verdana, helvetica, sans-serif;
     font-weight:800;
@@ -529,7 +552,9 @@ h1{
         white-space:nowrap;
     }
     
- 
+    #myBtn{
+        display:none;
+    }
 }
 @media (min-width:816px){
     .bulletText > br{

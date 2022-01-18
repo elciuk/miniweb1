@@ -45,26 +45,7 @@
 <meta property="og:description" content="Správa Facebooku a reklamních kampaní, DAN Europe Česko, Pojištění DAN">
 
 <style>
-    #myBtn {
-      display: none;
-      position: fixed;
-      bottom: 35%;
-      right: 25px;
-      z-index: 99;
-      font-size: 18px;
-      border: none;
-      outline: none;
-      background-color: transparent;
-      color: #656B6F;
-      cursor: pointer;
-      padding: 5px;
-      border-radius: 4px;
-    }
     
-    #myBtn:hover {
-      background-color: #2E71F2;
-      color: #ffffff;
-    }
     </style>
     
 
@@ -84,6 +65,10 @@
             mybutton.style.display = "block";
           } else {
             mybutton.style.display = "none";
+          }
+
+          if (document.width < 600){
+              mybutton.style.display = "none";
           }
         }
         
