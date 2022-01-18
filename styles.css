@@ -296,7 +296,9 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
 
 
 /*begining of inserted content*/
-
+#sluzby{
+    margin-top:3%;
+}
 
 h1{
     font-size:300%;
@@ -542,7 +544,7 @@ h1{
         text-align:block;
         font-weight:600;
     }
-    #oMnePop a:hover{
+    #oMnePop a:hover, .contactText1 a:hover{
         text-decoration:underline;
     }
     #oMne:checked ~ #oMnePop{

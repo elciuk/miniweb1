@@ -43,8 +43,57 @@
   <meta property="og:title" content="Správa Facebooku • reklamních kampaní a strategií • Adam Macura|✓ AmFi.cz|DAN Europe Česko:Pojištění DAN Europe">
 <meta property="og:site_name" content="Správa Facebooku • reklamních kampaní a strategií • Pojištění DAN Europe">
 <meta property="og:description" content="Správa Facebooku a reklamních kampaní, DAN Europe Česko, Pojištění DAN">
+
+<style>
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 35%;
+      right: 25px;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: transparent;
+      color: #656B6F;
+      cursor: pointer;
+      padding: 5px;
+      border-radius: 4px;
+    }
+    
+    #myBtn:hover {
+      background-color: #2E71F2;
+      color: #ffffff;
+    }
+    </style>
+    
+
     </head>
     <body>
+
+        <button onclick="topFunction()" id="myBtn" title="Na začátek stránky">↑</button>
+        <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
        <nav class="navigation">
            <div class="desktopMenu">
                 <p id="desktopName"><a href="#desktopName">ADAM MACURA</a></p>
@@ -156,7 +205,7 @@
                     TELEFON: <span class="noWrap">773 922 991</span> IČO: <a href="http://www.rzp.cz/cgi-bin/aps_cacheWEB.sh?VSS_SERV=ZVWSBJFND&OKRES=&CASTOBCE=&OBEC=&ULICE=&CDOM=&COR=&COZ=&ICO=&OBCHJM=&OBCHJMATD=0&ROLES=P&JMENO=adam&PRIJMENI=macura&NAROZENI=&ROLE=&VYPIS=1&type=&PODLE=osoba&Action=List&IDOSOBY=2cae8a92b02cdf36185e" alt="Odkaz na rejstřík živnostenského podnikání" title="Odkaz na rejstřík živnostenského podnikání">10706356</a><br>
                     <a href="mailto:amacura@daneurope.org">AMACURA@DANEUROPE.ORG</a> | <a href="https://www.facebook.com/adam.macura.3720" alt="Odkaz na můj facebook" title="Odkaz na můj Facebook">FACEBOOK</a></p>
 
-                <p class="contactText1"><span class="noWrap">Potřebujete rychlý a originální</span><br> <span class="noWrap">výsledek, nebo máte více než</span><br> <span class="noWrap">náročné požadavky? Nevadí.</span><br> <span class="noWrap">Kontaktujte náš kreativní tým</span><br> <span class="noWrap">⌬ ToxicLab.cz</span></p>
+                <p class="contactText1"><span class="noWrap">Potřebujete rychlý a originální</span><br> <span class="noWrap">výsledek, nebo máte více než</span><br> <span class="noWrap">náročné požadavky? Nevadí.</span><br> <span class="noWrap">Kontaktujte náš kreativní tým</span><br> <span class="noWrap"><a href="https://toxiclab.cz" alt="odkaz na Toxic Lab" title="Koukněte můj tým na Toxic Lab">⌬ ToxicLab.cz</a></span></p>
                 <hr class="contactHr">
                 <p class="contactText2"><b>JSEM SOUČÁSTÍ DIGITÁLNÍHO TÝMU <a href="toxiclab.cz" alt="odkaz na Toxic Lab" title="Odkaz na web Toxic Lab"><span class="noWrap">⌬ TOXICLAB.CZ</span></a></b><br>
                     MAIL: <a href="mailto:info@toxiclab.cz" title="Pošlete e-mail agentuře Toxic Lab">INFO@TOXICLAB.CZ</a><br>
