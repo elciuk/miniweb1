@@ -13,9 +13,6 @@ html{
     --lightblack:#3b3d40;
     --darkgrey:#656b6f;
 }
-#myBtn{
-
-}
 #myBtn {
     display: none;
     position: fixed;
@@ -406,7 +403,7 @@ h1{
     .bulletWholeDesc{
         display:flex;
         flex-direction: column;
-        justify-content: top;
+        justify-content: center;
         padding-top:0.5rem;
         margin-bottom:2rem;
     }
@@ -429,6 +426,9 @@ h1{
 
     .bulletText, .priceSecondary{
         font-weight:700;
+    }
+    #firstBulletDesc{
+        margin-bottom:1.5rem;
     }
     .price{
         font-size:110%;
@@ -540,6 +540,12 @@ h1{
     }
     #overlay ul{
         padding-top:10vh;
+    }
+  
+}
+@media (max-width:815px){
+    #pricePage h1{
+        line-height:2rem;
     }
 }
 @media (min-width:600px){
