@@ -528,7 +528,7 @@ h1{
         white-space:normal;
     }
     .bulletText > br{
-        display:none;
+        display:inline;
     }
 }
 @media (max-width:550px){
@@ -541,7 +541,11 @@ h1{
     #overlay ul{
         padding-top:10vh;
     }
-  
+  .bulletWholeDesc{
+      max-width:80%;
+      margin:auto;
+  }
+
 }
 @media (max-width:815px){
     #pricePage h1{
