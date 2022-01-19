@@ -684,7 +684,16 @@ h1{
         margin-bottom:0px;
     }
     .bulletText{
-        font-size:90% !important;
+        height:200px;
+        max-width:80%;
+        margin:auto;
+        text-align: block;
+    }
+    .bulletText br{
+        display:none;
+    }
+    .bulletText .noWrap{
+        white-space: normal;
     }
     .hidden{
         display:none;
