@@ -768,8 +768,13 @@ h1{
  .contactText1{
      font-size:250%;
  }
-.bulletText{
-    font-size:125% !important;
+ .bulletText{
+    height:135px;
+    max-width:60%;
+    margin:auto;
+    text-align: block;
+    font-size:120% !important;
+    margin-bottom:1rem;
 }
 .price{
     font-size:125% !important;
