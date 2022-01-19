@@ -542,7 +542,7 @@ h1{
         padding-top:10vh;
     }
   .bulletWholeDesc{
-      max-width:80%;
+      max-width:85%;
       margin:auto;
   }
 
@@ -662,6 +662,7 @@ h1{
         margin:auto;
         padding-top:2%;
         padding-bottom:3rem;
+        align-items: flex-start;
     }
     .bullet{
         grid-row:1/2;
@@ -673,6 +674,7 @@ h1{
         padding-top:0rem;
         grid-row:2/3;
         padding:0.5rem;
+        margin-bottom:0px;
     }
     .bulletWholeDesc > *{
         text-align:block;
@@ -681,7 +683,9 @@ h1{
         font-weight:500;
         margin-bottom:0px;
     }
-   
+    .bulletText{
+        font-size:90% !important;
+    }
     .hidden{
         display:none;
     }
@@ -691,6 +695,7 @@ h1{
         text-align:block;
         font-weight:600;
     }
+
     #arrowFirst, #arrowSecond{
         display:inline;
     }
@@ -760,7 +765,7 @@ h1{
 .price{
     font-size:125% !important;
 }
- 
+
 }
 /*kod pouze pro Safari*/
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
