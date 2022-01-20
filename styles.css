@@ -684,7 +684,8 @@ h1{
         margin-bottom:0px;
     }
     .bulletText{
-        height:200px;
+        height:160px;
+        margin-bottom:10px !important;
         max-width:80%;
         margin:auto;
         text-align: block;
@@ -770,10 +771,10 @@ h1{
  }
  .bulletText{
     height:135px;
-    max-width:60%;
+    max-width:70%;
     margin:auto;
     text-align: block;
-    font-size:120% !important;
+    font-size:140% !important;
     margin-bottom:1rem;
 }
 .price{
