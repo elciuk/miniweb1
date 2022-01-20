@@ -425,7 +425,10 @@ h1{
     }
 
     .bulletText, .priceSecondary{
-        font-weight:700;
+        font-weight:400 !important;
+    }
+    .bulletText{
+        text-align:block;
     }
     #firstBulletDesc{
         margin-bottom:1.5rem;
@@ -533,7 +536,7 @@ h1{
 }
 @media (max-width:550px){
     .bulletText > .noWrap{
-        white-space:normal;
+        white-space:nowrap;
     }
     .bulletText > br{
         display:none;
@@ -690,6 +693,9 @@ h1{
         margin:auto;
         text-align: block;
     }
+    #secondBulletText{
+        height:120px;
+    }
     .bulletText br{
         display:none;
     }
@@ -771,7 +777,7 @@ h1{
  }
  .bulletText{
     height:135px;
-    max-width:70%;
+    max-width:80%;
     margin:auto;
     text-align: block;
     font-size:140% !important;
