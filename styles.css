@@ -23,15 +23,15 @@ html{
     border: none;
     outline: none;
     background-color: transparent;
-    color: #656B6F;
+    color: black;
     cursor: pointer;
     padding: 5px;
     border-radius: 4px;
   }
   
   #myBtn:hover {
-    background-color: #2E71F2;
-    color: #ffffff;
+    background-color: transparent;
+    color:black;
   }
 h1, .coDal, #contactMeBtn{
     font-family: Arial, Verdana, helvetica, sans-serif;
