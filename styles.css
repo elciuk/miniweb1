@@ -394,10 +394,11 @@ h1{
     }
     .bullets{
         display: grid;
-        grid-template-rows: auto auto;
+        grid-template-rows: 1fr;
         padding-bottom:3rem;
         margin:auto;
         max-width:90%;
+        align-items: center;
   
     }
     .bulletWholeDesc{
@@ -420,8 +421,8 @@ h1{
         display:block;
         max-width:30vw;
         margin-top:auto;
-        margin-bottom:auto;
         margin:auto;
+        padding-bottom:3%;
     }
 
     .bulletText, .priceSecondary{
@@ -672,6 +673,7 @@ h1{
         max-width:100%;
         margin:auto auto;
         margin-bottom:2rem;
+        padding-bottom:0px;
     }
     .bulletWholeDesc{
         padding-top:0rem;
@@ -687,14 +689,14 @@ h1{
         margin-bottom:0px;
     }
     .bulletText{
-        height:160px;
+        height:140px;
         margin-bottom:10px !important;
         max-width:80%;
         margin:auto;
         text-align: block;
     }
     #secondBulletText{
-        height:120px;
+        height:110px;
     }
     .bulletText br{
         display:none;
@@ -776,13 +778,16 @@ h1{
      font-size:250%;
  }
  .bulletText{
-    height:135px;
+    height:100px;
     max-width:80%;
     margin:auto;
     text-align: block;
     font-size:140% !important;
     margin-bottom:1rem;
 }
+    #secondBulletText{
+        height:80px;
+    }
 .price{
     font-size:125% !important;
 }
