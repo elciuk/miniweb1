@@ -12,6 +12,32 @@ html{
     --lightblue:#7793c7;
     --lightblack:#3b3d40;
     --darkgrey:#656b6f;
+    --red:#9A3636;
+    --green:#3EAF95;
+    --gray:#838383;
+    --gold:#D9B548;
+    --purple:#B851D1;
+}
+#blue{
+    background-color:var(--blue);
+}
+#red{
+    background-color: var(--red);
+}
+#green{
+    background-color: var(--green);
+}
+#gray{
+    background-color: var(--gray);
+}
+#gold{
+    background-color: var(--gold);
+}
+#purple{
+    background-color: var(--purple);
+}
+#profilePic, #contactMeBtn, .bullet{
+    filter: drop-shadow(5px 5px 6px var(--lightblack));
 }
 #myBtn {
     display: none;
@@ -144,6 +170,15 @@ a{
 }
 .highlight{
     display:none;
+}
+.zmenaBarev{
+    display:none;
+}
+.meniciTlacitko{
+    width:15px;
+    height:15px;
+    border-radius:25%;
+    border:solid black 1px;
 }
 
 #overlay ul{
@@ -614,6 +649,12 @@ h1{
    }
    .hidden3{
        display:inline;
+   }
+   .zmenaBarev{
+       display:block;
+       grid-column:1/2;
+       grid-row:2/3;
+       text-align:center;
    }
     
    .desktopMenu{
